@@ -1,5 +1,7 @@
 # distinct
 
+mvn clean install
+
 time java -Xmx1g -cp target/distinct-1.0-SNAPSHOT.jar org.example.Main
 1000000000
 
