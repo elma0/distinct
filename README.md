@@ -2,9 +2,10 @@
 
 mvn clean install
 
-time java -Xmx1g -cp target/distinct-1.0-SNAPSHOT.jar org.example.Main
+time java -Xmx2g -cp target/distinct-1.0-SNAPSHOT.jar org.example.Main
+
 1000000000
 
-real    29m42,783s
-user    31m18,984s
-sys     0m27,845s
+real    15m42,773s
+user    16m17,484s
+sys     0m12,851s
