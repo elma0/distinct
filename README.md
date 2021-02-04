@@ -19,6 +19,15 @@ user    16m17,484s
 sys     0m12,851s
 ``` 
 
+           
+```
+time ~/.jdks/openjdk-14.0.2/bin/java -Xmx2g -cp target/distinct-1.0-SNAPSHOT.jar org.example.Main
+1000000000
+
+real    13m30,488s
+user    13m12,339s
+sys     0m14,261s
+```
 
 ```
 time ~/.jdks/openjdk-14.0.2/bin/java -Xmx2g -cp target/distinct-1.0-SNAPSHOT.jar org.example.Main2

@@ -17,7 +17,7 @@ import sun.net.util.IPAddressUtil;
 public class Main2 {
 
     public static void main(String[] args) throws IOException {
-        System.out.println(ipv4Cardinality(new File("/home/elma/Downloads/ip_addresses.zip")));
+        System.out.println(ipv4Cardinality(new File("ip_addresses.zip")));
     }
 
     private static long ipv4Cardinality(File file) throws IOException {
